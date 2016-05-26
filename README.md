@@ -2,7 +2,8 @@
 
 A Python project template for [cookiecutter][cookiecutter].
 
-[![Build Status](http://img.shields.io/travis/jacebrowning/template-python/master.svg)](https://travis-ci.org/jacebrowning/template-python)
+Unix: [![Unix Build Status](http://img.shields.io/travis/jacebrowning/template-python/master.svg)](https://travis-ci.org/jacebrowning/template-python)
+Windows: [![Windows Build Status](https://img.shields.io/appveyor/ci/jacebrowning/template-python.svg)](https://ci.appveyor.com/project/jacebrowning/template-python)
 
 This is a template for a typical Python library following modern packaging conventions. It utilizes popular libraries alongside Make, Pandoc, and Graphviz to fully automate all development and deployment tasks.
 
@@ -19,7 +20,7 @@ And a few sample projects based on this template:
 
 Install `cookiecutter` and generate a project:
 
-    $ pip install cookiecutter>=0.9.1
+    $ pip install cookiecutter
     $ cookiecutter gh:jacebrowning/template-python
 
 Cookiecutter will ask you for some basic info (your name, project name, python package name, etc.) and generate a base Python project for you.
